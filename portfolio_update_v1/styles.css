@@ -265,6 +265,12 @@ a{
 .qualifications :hover{
   transform: scale(1.5);
 }
+.img_about{
+  margin-top: 175px;
+  margin-right: 1500px;
+  border-radius: 125px;
+  border: 5px solid black;
+  }
 
 
 
