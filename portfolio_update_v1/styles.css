@@ -9,16 +9,16 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #c6c5c3;
+  background: #7c84ae;
 }
 /* Link Styles */
 
-a {
+ a {
   text-decoration: none;
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #7093eb;
 }
 
 /* Section Styles */
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/sydeny.jpg') no-repeat top center ;
+  background: url('images/code.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid rgb(255, 255, 255);
   transition: all 1s;
 }
 header .profile-image:hover {
@@ -94,12 +94,13 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 4px solid #ffffff;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #b3b3b2;
+  background: #dad9d8;
 }
 
 ul.skills {
@@ -118,6 +119,21 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+.html:hover{
+  transform: scale(1.2);
+}
+.css:hover{
+  transform: scale(1.2);
+}
+.js:hover{
+  transform: scale(1.2);
+}
+.py:hover{
+  transform: scale(1.2);
+}
+.xc:hover{
+  transform: scale(1.2);
 }
 
 footer {
@@ -144,18 +160,12 @@ footer ul li {
 a.social {
   display: inline-block;
   text-indent: -9999px;
-  margin-left: 5px;
+  margin-left: 1px;
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
-}
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
 }
 a.github {
   background-image: url(images/github.svg);
@@ -202,6 +212,11 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+
+
+}
+/* experience.html */
+.main{
 
 }
 
