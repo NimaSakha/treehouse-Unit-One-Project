@@ -2,7 +2,9 @@
 * { 
   box-sizing: border-box;
 }
-  
+ a{
+   color: white;
+ } 
 body {
   margin: 0;
   padding: 0;
@@ -17,9 +19,7 @@ body {
   text-decoration: none;
   color: #999;
 }
-a:hover {
-  color: #7093eb;
-}
+
 
 /* Section Styles */
 
