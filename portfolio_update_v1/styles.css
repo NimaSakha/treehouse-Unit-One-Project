@@ -236,7 +236,7 @@ a.social:hover {
   transform: scale(1.5);
 }
 .text {
-  margin: center;
+  margin: auto;
   margin-top: 50px;
   padding: 10px 40px 40px;
   text-align: center;
@@ -265,6 +265,7 @@ a{
 .qualifications :hover{
   transform: scale(1.5);
 }
+
 
 
 
